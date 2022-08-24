@@ -19,7 +19,127 @@
     color: #000;
 }
 
-.navbar-nav .btn-contact {
+.btn-darker {
     background-color: #000;
+    font-weight: 500;
+}
+
+.btn-darker:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    transition: 0.5s;
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.hero p {
     font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.btn-watch {
+    padding: 12px 0 12px 0;
+}
+
+.btn-watch:hover {
+    border-color: #fff;
+}
+
+.group-btn span {
+    font-weight: 600;
+}
+
+.hero-img {
+    width: 620px;
+}
+
+.how-img {
+    width: 520px;
+}
+
+.how h1 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.how p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.btn-how {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btn-how:hover {
+    background-color: #000;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+.services h1 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.services h2 {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.services p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.resources img {
+    width: 500px;
+}
+
+.resources h1 {
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.resources p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.7;
+}
+
+input[type=email] {
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
 }
