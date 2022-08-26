@@ -31,6 +31,14 @@
     border-color: rgba(0, 0, 0, 0.2);
 }
 
+.bg-darker-icon {
+    background-color: #000;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero h1 {
     font-size: 48px;
     font-weight: bold;
@@ -142,4 +150,39 @@ input[type=email] {
     border-radius: 50px;
     text-align: center;
     font-size: 18px;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 65px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.social .btn {
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px 0 0;
+}
+
+li .text-white {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+p .footer {
+    text-decoration: none;
 }
