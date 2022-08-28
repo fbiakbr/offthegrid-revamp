@@ -127,6 +127,7 @@
 
 .btn-how:hover {
     background-color: #000;
+    border-color: #000;
     opacity: 0.9;
     transition: 0.5s;
 }
@@ -216,16 +217,63 @@ p .footer {
 
 @media (max-width: 480px) {
     .hero-img {
-        width: 200px !important;
+        width: 250px !important;
     }
     .how-img {
-        width: 200px !important;
+        width: 250px !important;
     }
     .services-img {
-        width: 200px !important;
+        width: 250px !important;
     }
     .resources-img {
-        width: 200px !important;
+        width: 250px !important;
+    }
+    .hero h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .hero p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .how h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .how p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .btn-how-1 {
+        font-size: 14px;
+    }
+    .btn-how {
+        font-size: 14px;
+    }
+    .services h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .services h2 {
+        font-size: 18px;
+    }
+    .services p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .bg-darker-icon {
+        display: none;
+    }
+    .resources h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .resources p {
+        font-size: 14px;
+        font-weight: normal;
+    }
+    .footer-1 {
+        display: none;
     }
 }
 
